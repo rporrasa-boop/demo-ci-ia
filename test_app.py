@@ -2,7 +2,7 @@ from app import calcular_descuento, dividir
 
 
 def test_descuento():
-    resultado = calcular_descuento(100, 5)
+    resultado = calcular_descuento(100, 10)
     assert resultado == 90
 
 
